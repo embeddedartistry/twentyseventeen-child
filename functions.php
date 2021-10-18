@@ -43,8 +43,7 @@ function twentyseventeen_entry_footer() {
 		if ( 'post' === $post_type ||
 			 'fieldatlas' === $post_type ||
 			 'newsletters' === $post_type ||
-			 'glossary' === $post_type ||
-			 'course' === $post_type
+			 'glossary' === $post_type
 		   ) {
 			if ( ( $categories_list && twentyseventeen_categorized_blog() ) || $tags_list ) {
 				echo '<span class="cat-tags-links">';
