@@ -21,21 +21,29 @@ function twentyseventeen_entry_footer() {
 	/* translators: Used between list items, there is a space after the comma. */
 	$separate_meta = __( ', ', 'twentyseventeen' );
 
+	$post_type = get_post_type();
+
 	// Get Categories for posts.
 	$categories_list = get_the_category_list( $separate_meta );
 
 	// Get Tags for posts.
 	$tags_list = get_the_tag_list( '', $separate_meta );
 
+	if($post_type === 'glossary')
+	{
+		$categories_list = get_the_term_list(0, 'glossary-categories', '', $separate_meta);
+		$tags_list = get_the_term_list(0, 'glossary-tags', '', $separate_meta);
+	}
+
 	// We don't want to output .entry-footer if it will be empty, so make sure its not.
 	if ( ( ( twentyseventeen_categorized_blog() && $categories_list ) || $tags_list ) || get_edit_post_link() ) {
 
 		echo '<footer class="entry-footer">';
 
-		if ( 'post' === get_post_type() ||
-			 'fieldatlas' === get_post_type() ||
-			 'newsletters' === get_post_type() ||
-			 'glossary' === get_post_type()
+		if ( 'post' === $post_type ||
+			 'fieldatlas' === $post_type ||
+			 'newsletters' === $post_type ||
+			 'glossary' === $post_type
 		   ) {
 			if ( ( $categories_list && twentyseventeen_categorized_blog() ) || $tags_list ) {
 				echo '<span class="cat-tags-links">';
@@ -58,4 +66,5 @@ function twentyseventeen_entry_footer() {
 		echo '</footer> <!-- .entry-footer -->';
 	}
 }
+
 ?>
