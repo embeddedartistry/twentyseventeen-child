@@ -14,7 +14,7 @@
 
 .woocommerce-button {
     border-style: solid !important;
-    border-width: 1px;
+    border-width: 1px !important;
     padding: 2px;
     margin: 5px;
 }
