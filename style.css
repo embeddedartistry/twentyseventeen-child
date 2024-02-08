@@ -387,8 +387,8 @@ div.wpforms-container-full .wpforms-form {
 /* Reduce padding on home page */
 .twentyseventeen-front-page .site-content, .site-content
 {
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding-bottom: 10px !important;
+    padding-top: 20px !important;
 }
 
 /* Remove Privacy Policy link */
