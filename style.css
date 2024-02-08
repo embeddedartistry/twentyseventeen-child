@@ -18,3 +18,570 @@
     padding: 2px;
     margin: 5px;
 }
+
+.tabs-titles {
+    background-color: transparent !important;
+}
+
+.wp-block-column {
+    word-break: normal !important;
+}
+
+blockquote {
+    font-size: 16px;
+    margin-left: 2em;
+    margin-right: 2em;
+      margin-bottom: 20px;
+}
+
+li blockquote {
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: grey;
+      padding-left: 10px;
+      margin-left: 0.5em;
+}
+
+blockquote p {
+    margin-bottom: 0.5em !important;
+}
+
+ul,ol {
+    padding-left: 2em;
+}
+
+/* Make Menu Button Bigger */
+.menu-toggle {
+font-size: 1rem;
+}
+
+/* Align center FA entries */
+.fieldatlas .entry-title {
+    text-align: center;
+}
+
+/* Woocommerce Mini Cart Fixes */
+/* Without this, text alignment in the cart with the quantity is broken */
+.widget_shopping_cart_content ul li a {
+    margin-bottom: 1.5em !important;
+    color: #307B75;
+}
+
+.widget_shopping_cart_content .quantity {
+    padding-bottom: 0px !important;
+}
+
+.woocommerce-mini-cart__total {
+    margin-bottom: 0.1em;
+}
+
+.woocommerce-mini-cart__buttons a {
+    color: #307B75;
+    text-decoration: underline;
+    padding-right: 0.5em;
+}
+
+/* Forum Improvements */
+#wpforo p + ul,ol {
+    /* Adds space between the end of a ul/ol and the following p */
+    margin-bottom: 16px !important;
+}
+
+.wpfpm-msg p + p {
+    /* Adds space between end of p and start of next p in private messages */
+    margin-top: 16px !important;
+}
+
+/* Shrink distance from text to slideshow */
+.wp-block-jetpack-slideshow
+{
+    margin-top: 10px;
+}
+
+/*styling to move 'Subscribe' to right hand side */
+.single-forum .subscription-toggle  {
+    float:right !important ;
+}
+
+/* Resolve error for github embeded block links not working */
+.ebg-br-wrapper > .ebg-br-background-image { pointer-events: none; }
+
+.page .entry-header { display: none; }
+
+/* Code Block Styling */
+
+pre {
+    background: #eee;
+    font-size: 14px !important;
+    margin-bottom: 2em !important;
+      width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+
+pre code {
+    font-family: "Courier New", monospace;
+    overflow-x: auto;
+    font-size: 15px;
+}
+
+.ebg-br-wrapper {
+    max-width: 600px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End Code Block Styling */
+
+/* Link Color Settings */
+
+.entry-content a:hover, .entry-content a, .entry a, .nav-prev a, .nav-next a {
+    color: #3D9991;
+}
+
+.entry a:hover, .nav-prev a:hover, .nav-next a:hover, .main-navigation a:hover, .must-log-in a {
+    color: #307B75;
+}
+
+.site-main a, a.inactive {
+    color:#3D9991;
+}
+
+/* End Link Color Settings */
+
+/* Link Style Settings */
+
+.entry-content a, .entry a, .nav-prev a, .nav-next a {
+    border: none;
+    box-shadow: none;
+}
+
+.must-log-in a {
+    text-decoration: underline;
+}
+
+/* End Link Style Settings */
+
+/* WP Forms Styling */
+
+.wpforms-confirmation-container-full
+{
+    background-color: #3D9991 !important;
+    border-color: #3D9991 !important;
+    color: white !important;
+}
+
+button.wpforms-submit {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* End Button and Form Styling */
+
+.posted_in {
+    display: block;
+}
+
+/* Sensei Styling */
+
+.modules-title h2 {
+    font-size: 26px !important;
+    padding-bottom: 0.5em;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.module h2 {
+    font-size: 22px !important;
+}
+
+.course-content picture {
+    margin-top: 10px;
+}
+
+/* Address the large gap between tale of contents and h2 on some lesson pages */
+.lesson h2 {
+    padding-top: 0.5em !important;
+}
+
+/* Add space between button and lesson navigator */
+.complete {
+    margin-bottom: 10px;
+}
+
+/* End Sensei Styling */
+
+/* Heading Configuration Section */
+
+h2 {
+    color: black;
+}
+
+h1 code {
+    font-size: 1.4rem;
+}
+
+h2 code, h3 code, h4 code, h5 code, h6 code {
+    font-size: 1.2rem;
+}
+
+h3, h4, h5, h6 {
+    text-decoration: underline;
+}
+
+.jp-relatedposts-headline {
+    font-size: 18px !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    clear: both;
+    line-height: 1.4;
+    margin: 0 0 0.5em;
+    padding: 0.5em 0 0;
+}
+
+/* End Heading Configuration Section */
+
+/* Sensei LMS Block */
+
+.lesson .button, .quiz-submit, .send-message-button, .course-start {
+    background-color: #307B75 !important;
+}
+
+.wcs-switch-link {
+    background-color: whitesmoke !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    padding: 5px;
+    font-style: bold;
+}
+
+.sensei-breadcrumb {
+    margin-top: 4em;
+}
+
+#attached-media h2 {
+    margin-top: 1em;
+}
+
+#attached-media ul,ol {
+    padding-left: 2em
+}
+
+#attached-media a {
+    color: #3D9991;
+    border: none;
+    box-shadow: none;
+}
+
+/* End Sensei LMS Block */
+
+/* Woocommerce Store */
+
+.woocommerce-info a {
+    color: white;
+}
+
+.woocommerce-error a {
+    color: white
+}
+
+.woocommerce-variation-add-to-cart
+{
+    text-align: center;
+}
+
+.wc-memberships-member-discount-message {
+    margin-top: 20px;
+}
+
+/* Updates ajax add to car button */
+.wp-block-button a, .wp-block-button a:hover{
+    color: #fff;
+}
+
+/* Updates ajax add to cart button */
+.wp-block-button__link, .woocommerce-info {
+    background-color: #3D9991;
+}
+
+/* Position quantity box, instead of having it float next to the submit button */
+.quantity
+{
+    display:block !important;
+    float:none !important;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.single_add_to_cart_button
+{
+    background-color: #307B75 !important;
+}
+
+/* Reduce space between checkboxbox and start of text */
+.woocommerce-input-wrapper input[type=checkbox] {
+    margin-right: -60px;
+
+}
+
+/* Add space between the bold text and "Use" in team option */
+.woocommerce-input-wrapper label {
+    padding-right: 5px;
+}
+
+/* End Woocommerce Store */
+
+/* Widget Settings */
+.widget ul {
+    padding: 0;
+}
+
+h2.widget-title
+{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0.75em;
+}
+
+.widget {
+    padding-bottom: 2em;
+}
+
+div.wpforms-container-full .wpforms-form {
+    background-color: #eee;
+    padding: 1em;
+    border-color: black;
+    border: 1px solid black;
+
+}
+/* End Widget Settings */
+
+/* Dark Mode Disables */
+
+.darkmode--activated .entry-content a, .darkmode--activated .entry a, .darkmode--activated .pt-cv-gls-header, .darkmode--activated .must-log-in a, .darkmode--activated .nav-prev a, .darkmode--activated .nav-next a,
+.darkmode--activated a.inactive, .darkmode--activated .must-log-in a,
+.darkmode--activated .wpforms-confirmation-container-full, .darkmode--activated button.wpforms-submit, .darkmode--activated .lesson .button, .darkmode--activated .quiz-submit, .darkmode--activated .send-message-button,
+.darkmode--activated .course-start, .darkmode--activated #attached-media a, .darkmode--activated .wp-block-button__link, .darkmode--activated .single_add_to_cart_button, .darkmode--activated .woocommerce-info,
+.darkmode--activated .wpforo-category, .head-title .darkmode--activated, .darkmode--activated .wpforo-profile-head-bg
+{
+    mix-blend-mode: difference ;
+}
+
+.darkmode--activated #wpforo-menu a, .darkmode--activated .entry a:hover, .darkmode--activated .nav-prev a:hover, .darkmode--activated .nav-next a:hover, .darkmode--activated .main-navigation a:hover, .darkmode--activated .custom-logo img
+{
+    mix-blend-mode: normal;
+}
+
+/* End Dark Mode Disables */
+
+/*
+ * Reduce space at top of page wihtout banner
+ */
+.site-branding {
+    display: none;
+}
+
+/* Reduce padding on home page */
+.twentyseventeen-front-page .site-content, .site-content
+{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* Remove Privacy Policy link */
+.site-info {
+    display:none;
+}
+
+/** Admonition Display Constants */
+.admonition {
+    margin: 1.5625em 0;
+    padding: 0;
+    overflow: hidden;
+    page-break-inside: avoid;
+    background-color: var(--background-secondary);
+    border-left: 0.2rem solid rgb(var(--admonition-color));
+    border-radius: 0.1rem;
+    box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow);
+}
+
+.admonition-title {
+    position: relative;
+    padding: 0.6rem 0.25em;
+    font-weight: 700;
+    background-color: rgba(var(--admonition-color), 0.1);
+}
+
+.admonition-title-content {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.admonition-title-icon {
+    color: rgb(var(--admonition-color));
+    background: var(--admonition-details-icon) no-repeat center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.5em 0 0.25em;
+    min-width: 1.5em;
+}
+
+.admonition-title-markdown {
+    display: block;
+}
+
+.admonition-title.no-title {
+    display: none;
+}
+
+.admonition > .admonition-title.no-title + .admonition-content-holder {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.admonition-content-holder {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.admonition-content {
+      margin: 15px 15px 0px 15px;
+    position: relative;
+    overflow-x: auto;
+}
+
+/* My Admonitions */
+.admonition-note {
+    --admonition-color: 61, 153, 145;
+    --background-secondary: #f7f7f7;
+    --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg class='svg-inline--fa fa-exclamation fa-w-6' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 512'%3E%3Cpath fill='rgb(61, 153, 145)' d='M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z' /%3E%3C/svg%3E");
+}
+
+.admonition-optional {
+   --admonition-color: 61, 153, 145;
+    --background-secondary: #f7f7f7;
+    --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg class='svg-inline--fa fa-map-signs fa-w-16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='rgb(61, 153, 145)' d='M507.31 84.69L464 41.37c-6-6-14.14-9.37-22.63-9.37H288V16c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v16H56c-13.25 0-24 10.75-24 24v80c0 13.25 10.75 24 24 24h385.37c8.49 0 16.62-3.37 22.63-9.37l43.31-43.31c6.25-6.26 6.25-16.38 0-22.63zM224 496c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V384h-64v112zm232-272H288v-32h-64v32H70.63c-8.49 0-16.62 3.37-22.63 9.37L4.69 276.69c-6.25 6.25-6.25 16.38 0 22.63L48 342.63c6 6 14.14 9.37 22.63 9.37H456c13.25 0 24-10.75 24-24v-80c0-13.25-10.75-24-24-24z' /%3E%3C/svg%3E");
+}
+
+.admonition-story {
+    --admonition-color: 61, 153, 145;
+    --background-secondary: #f7f7f7;
+    --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg class='svg-inline--fa fa-book-open fa-w-18' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='rgb(61, 153, 145)' d='M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z' /%3E%3C/svg%3E");
+}
+
+.admonition-warning {
+    --admonition-color: 255, 145, 0;
+    --background-secondary: #f7f7f7;
+    --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg class='svg-inline--fa fa-exclamation-triangle fa-w-18' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='rgb(255, 145, 0)' d='M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z' /%3E%3C/svg%3E");
+}
+
+.admonition-quote {
+    --admonition-color: 158, 158, 158;
+    --background-secondary: #f7f7f7;
+    --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg class='svg-inline--fa fa-quote-right fa-w-16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='currentColor' d='M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z' /%3E%3C/svg%3E");
+}
+
+.admonition-further-reading
+{
+    --admonition-color: 61, 153, 145;
+    --background-secondary: #f7f7f7;
+    --admonition-details-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg class='svg-inline--fa fa-book-open fa-w-18' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='rgb(61, 153, 145)' d='M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z' /%3E%3C/svg%3E");
+}
+
+/* My Callouts */
+.callout[data-callout="story"] { --callout-color: 61, 153, 145; --callout-icon: "%3Csvg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"book-open\" class=\"svg-inline--fa fa-book-open fa-w-18\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\"%3E%3Cpath fill=\"currentColor\" d=\"M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z\"%3E%3C/path%3E%3C/svg%3E"; }
+
+.callout[data-callout="question"] {
+    --callout-color: 100, 100, 100;
+    --callout-icon: %3Csvg viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"svg-inline--fa fa-question-circle fa-w-16\" data-icon=\"question-circle\" data-prefix=\"fas\" aria-hidden=\"true\" width=\"16\" height=\"16\" fill=\"currentColor\" stroke=\"currentColor\"%3E%3Cpath d=\"M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z\" fill=\"currentColor\"%3E%3C/path%3E%3C/svg%3E
+}
+
+.callout[data-callout="note"] { --callout-color: 61, 153, 145; --callout-icon: "%3Csvg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"exclamation\" class=\"svg-inline--fa fa-exclamation fa-w-6\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 512\"%3E%3Cpath fill=\"currentColor\" d=\"M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z\"%3E%3C/path%3E%3C/svg%3E"; }
+
+.callout[data-callout="optional"] { --callout-color: 61, 153, 145; --callout-icon: "%3Csvg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"map-signs\" class=\"svg-inline--fa fa-map-signs fa-w-16\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"%3E%3Cpath fill=\"currentColor\" d=\"M507.31 84.69L464 41.37c-6-6-14.14-9.37-22.63-9.37H288V16c0-8.84-7.16-16-16-16h-32c-8.84 0-16 7.16-16 16v16H56c-13.25 0-24 10.75-24 24v80c0 13.25 10.75 24 24 24h385.37c8.49 0 16.62-3.37 22.63-9.37l43.31-43.31c6.25-6.26 6.25-16.38 0-22.63zM224 496c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V384h-64v112zm232-272H288v-32h-64v32H70.63c-8.49 0-16.62 3.37-22.63 9.37L4.69 276.69c-6.25 6.25-6.25 16.38 0 22.63L48 342.63c6 6 14.14 9.37 22.63 9.37H456c13.25 0 24-10.75 24-24v-80c0-13.25-10.75-24-24-24z\"%3E%3C/path%3E%3C/svg%3E"; }
+
+.callout[data-callout="further-reading"] { --callout-color: 61, 153, 145; --callout-icon: "%3Csvg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"link\" class=\"svg-inline--fa fa-link fa-w-16\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"%3E%3Cpath fill=\"currentColor\" d=\"M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z\"%3E%3C/path%3E%3C/svg%3E"; }
+
+.callout[data-callout="warning"] {
+    --callout-color: 255, 145, 0;
+}
+
+.callout[data-callout="quote"] {
+    --callout-color: 100, 100, 100;
+}
+
+/* Callout Constants */
+
+.callout {
+    margin: 1.5625em 0;
+    padding: 0;
+    overflow: hidden;
+    page-break-inside: avoid;
+    background-color: #f7f7f7;
+    border-left: 0.3rem solid rgb(var(--callout-color));
+}
+
+.callout-title {
+    position: relative;
+    display: flex;
+    padding: 0.6rem 0.25em;
+    background-color: rgba(var(--callout-color), 0.1);
+}
+
+.callout-title-inner {
+    font-weight: 700;
+    justify-content: flex-start;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.callout-icon {
+    color: rgb(var(--callout-color));
+    background: var(--callout-icon) no-repeat center;
+    display: flex;
+    margin: 0.2em 0.5em 0 0.25em;
+}
+
+.callout-content {
+      margin: 15px 15px 0px 15px;
+    position: relative;
+    overflow-x: auto;
+}
+
+/* Collapsible Section (Details) */
+.no-bullets {
+  list-style-type: none;
+    padding-left: 1em;
+}
+
+details.collapsible-section > summary {
+    font-size: 1.625rem;
+    font-weight: 300;
+    padding: 0.5em 0 0;
+    margin: 0 0 0.5em;
+}
+
+details[open] {
+    border-left: 2px solid #3D9991;
+    padding-left: 30px;
+}
+
+details[open] > summary {
+    margin-left: -25px;
+    margin-bottom: 10px;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
