@@ -66,4 +66,15 @@ function twentyseventeen_entry_footer() {
 	}
 }
 
+function change_header_menu_by_login_status( array $args )
+{
+	if( is_user_logged_in() )
+	{
+	    $args['menu'] = 1493; // Header Menu - Logged In
+	}
+
+	return $args;
+}
+add_filter( 'wp_nav_menu_args', 'change_header_menu_by_login_status' );
+
 ?>
