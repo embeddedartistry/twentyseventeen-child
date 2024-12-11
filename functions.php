@@ -69,7 +69,7 @@ function twentyseventeen_entry_footer() {
 function change_header_menu_by_login_status( array $args )
 {
 	// Swap Header Menu - Guest...
-	if( is_user_logged_in() && $args['menu'] == 595)
+	if( is_user_logged_in() && $args['theme_location'] == 'top')
 	{
 	    $args['menu'] = 1493; // with Header Menu - Logged In
 	}
