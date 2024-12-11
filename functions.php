@@ -68,9 +68,10 @@ function twentyseventeen_entry_footer() {
 
 function change_header_menu_by_login_status( array $args )
 {
-	if( is_user_logged_in() )
+	// Swap Header Menu - Guest...
+	if( is_user_logged_in() && $args['menu'] == 595)
 	{
-	    $args['menu'] = 1493; // Header Menu - Logged In
+	    $args['menu'] = 1493; // with Header Menu - Logged In
 	}
 
 	return $args;
