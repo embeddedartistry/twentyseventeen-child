@@ -361,7 +361,7 @@ div.wpforms-container-full .wpforms-form {
 
 /* Dark Mode Disables */
 
-.darkmode--activated .navigation-top div, .entry-content a, .darkmode--activated .entry a, .darkmode--activated .pt-cv-gls-header, .darkmode--activated .must-log-in a, .darkmode--activated .nav-prev a, .darkmode--activated .nav-next a,
+.darkmode--activated .entry-content a, .darkmode--activated .entry a, .darkmode--activated .pt-cv-gls-header, .darkmode--activated .must-log-in a, .darkmode--activated .nav-prev a, .darkmode--activated .nav-next a,
 .darkmode--activated a.inactive, .darkmode--activated .must-log-in a,
 .darkmode--activated .wpforms-confirmation-container-full, .darkmode--activated button.wpforms-submit, .darkmode--activated .lesson .button, .darkmode--activated .quiz-submit, .darkmode--activated .send-message-button,
 .darkmode--activated .course-start, .darkmode--activated #attached-media a, .darkmode--activated .wp-block-button__link, .darkmode--activated .single_add_to_cart_button, .darkmode--activated .woocommerce-info,
@@ -370,7 +370,7 @@ div.wpforms-container-full .wpforms-form {
     mix-blend-mode: difference ;
 }
 
-.darkmode--activated #wpforo-menu a, .darkmode--activated .entry a:hover, .darkmode--activated .nav-prev a:hover, .darkmode--activated .nav-next a:hover, .darkmode--activated .main-navigation a:hover, .darkmode--activated .custom-logo img
+.darkmode--activated .navigation-top div, .darkmode--activated #wpforo-menu a, .darkmode--activated .entry a:hover, .darkmode--activated .nav-prev a:hover, .darkmode--activated .nav-next a:hover, .darkmode--activated .main-navigation a:hover, .darkmode--activated .custom-logo img
 {
     mix-blend-mode: normal;
 }
