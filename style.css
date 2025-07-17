@@ -365,7 +365,7 @@ div.wpforms-container-full .wpforms-form {
 .darkmode--activated a.inactive, .darkmode--activated .must-log-in a,
 .darkmode--activated .wpforms-confirmation-container-full, .darkmode--activated button.wpforms-submit, .darkmode--activated .lesson .button, .darkmode--activated .quiz-submit, .darkmode--activated .send-message-button,
 .darkmode--activated .course-start, .darkmode--activated #attached-media a, .darkmode--activated .wp-block-button__link, .darkmode--activated .single_add_to_cart_button, .darkmode--activated .woocommerce-info,
-.darkmode--activated .wpforo-category, .darkmode--activated .head-title, .darkmode--activated .wpforo-profile-head-bg
+.darkmode--activated .wpforo-category, .darkmode--activated .wpforo-profile-head-bg
 {
     mix-blend-mode: difference ;
 }
